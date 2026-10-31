@@ -35,6 +35,8 @@ docs/content/docs/overview/*
 !docs/content/docs/overview/creative-agent-design.mdx
 .env*
 !.env.example
+# 腾讯云服务器部署配置：只含可公开的运行参数，密钥在部署时生成。
+!.env.tenxun
 data/
 .local/
 /.local/docker-compose.postgres.yml
